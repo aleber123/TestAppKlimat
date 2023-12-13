@@ -1,0 +1,85 @@
+/* Fonts.module.css */
+
+/* Desktop */
+h1 {
+    font-size: 55px;
+  }
+  
+  h2 {
+    font-size: 43px;
+  }
+  
+  h3 {
+    font-size: 34px;
+  }
+  
+  h4 {
+    font-size: 27px;
+  }
+  
+  p {
+    font-size: 21px;
+  }
+  
+  /* Tablet */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 52px;
+    }
+  
+    h2 {
+      font-size: 41px;
+    }
+  
+    h3 {
+      font-size: 32px;
+    }
+  
+    h4 {
+      font-size: 25px;
+    }
+  
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 576px) {
+    h1 {
+      font-size: 47px;
+    }
+  
+    h2 {
+      font-size: 37px;
+    }
+  
+    h3 {
+      font-size: 29px;
+    }
+  
+    h4 {
+      font-size: 23px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Övriga klasser för typsnitt och stilar */
+  .openSans {
+    font-family: 'Open Sans', sans-serif;
+    /* Andra stilar för Open Sans */
+  }
+  
+  .poppins {
+    font-family: 'Poppins', sans-serif;
+    /* Andra stilar för Poppins */
+  }
+  
+  .bold {
+    font-weight: bold;
+    /* Andra stilar för bold */
+  }
+  
