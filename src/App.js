@@ -2,7 +2,10 @@ import React from 'react';
 import './style.css'; // Om du har en global stilfil för din applikation
 import styles from './Fonts.module.css'; // Importera dina CSS-moduler för typsnitten
 import Header from './Components/header'; // Importera Header-komponenten
-import Kalender from './Components/kalender';
+import HeaderBild from './Components/HeaderBild';
+import MallEtt from './Components/MallEtt';
+import Footer from './Components/footer';
+import Anmala from './Components/Anmala';
 
 
 function App() {
@@ -10,8 +13,12 @@ function App() {
     <div className="App">
       <Header />
       <HeaderBild/>
-      <Kalender/>
-      <AnmalaWorkshop />
+      <MallEtt/>
+      <Anmala/>
+      <Footer/>
+     
+  
+  
       <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1}`}>Rubrik 1</h1>
       <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Rubrik 2</h2>
       <h3 className={`${styles.openSans} ${styles.bold} ${styles.h3}`}>Rubrik 3</h3>
