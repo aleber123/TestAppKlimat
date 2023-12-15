@@ -3,10 +3,14 @@
 /* Desktop */
 h1 {
     font-size: 55px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
   }
   
   h2 {
     font-size: 43px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
   }
   
   h3 {
@@ -19,16 +23,21 @@ h1 {
   
   p {
     font-size: 21px;
+    font-family: 'roboto',
   }
   
   /* Tablet */
   @media (max-width: 768px) {
     h1 {
       font-size: 52px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
     }
   
     h2 {
       font-size: 41px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
     }
   
     h3 {
@@ -41,6 +50,7 @@ h1 {
   
     p {
       font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
     }
   }
   
@@ -48,10 +58,14 @@ h1 {
   @media (max-width: 576px) {
     h1 {
       font-size: 47px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bold;
     }
   
     h2 {
       font-size: 37px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
     }
   
     h3 {
@@ -64,6 +78,7 @@ h1 {
   
     p {
       font-size: 18px;
+      font-family: 'roboto', sans-serif;
     }
   }
   
