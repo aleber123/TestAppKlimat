@@ -6,7 +6,7 @@ import HeaderBild from './Components/HeaderBild';
 import MallEtt from './Components/MallEtt';
 import Footer from './Components/footer';
 import Anmala from './Components/Anmala';
-
+import WorkshopVad from './Components/WorkshopVad';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <HeaderBild/>
       <MallEtt/>
-      <Anmala/>
+      <WorkshopVad/>
       <Footer/>
      
   
