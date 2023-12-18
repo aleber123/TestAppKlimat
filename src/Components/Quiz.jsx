@@ -104,6 +104,8 @@ function Quiz() {
         <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} style={{color:"#304742"}} >KlimatQuiz: Matvanor</h2>
         </div>
         <div className="card-body">
+
+          
         <div className="text-center">
         <p className={`${styles.openSans} ${styles.p}`} style={{color:"#304742"}}>Fråga {currentQuestionIndex + 1} of {questions.length}  </p>
          
@@ -112,7 +114,7 @@ function Quiz() {
         <p className={`${styles.openSans} ${styles.p}`}>  {(currentQuestionIndex + 1) + ". " + question.question} </p>
         </div>
           {question.options.map((option, optionIndex) => (
-            <div key={optionIndex} className="form-check pt-3">
+            <div key={optionIndex} className="form-check pt-3 m-5">
               <input 
                 className="form-check-input"
                 type="radio"
@@ -131,35 +133,31 @@ function Quiz() {
         </div>
        
         <div >
-            <Container  >
-              <Row>
-              <Col>
-                <button style={{backgroundColor:"#304742", color:"#FDFAF2" }} onClick={handlePrevious} disabled={currentQuestionIndex === 0} className="bi bi-arrow-left">
+            <Container className='d-flex justify-content-between' >
+            
+                <button style={{backgroundColor:"#304742", color:"#FDFAF2",width:"8rem", height:"5rem" }} onClick={handlePrevious} disabled={currentQuestionIndex === 0} className="bi bi-arrow-left">
+                  <p>Tillbaka</p>
                 </button>
-              </Col>
+             
                     {currentQuestionIndex === questions.length - 1 ? (
-                  <button style={{backgroundColor:"#304742", color:"#FDFAF2" }} onClick={handleShowResult} className='bi bi-arrow-right' >
+                
+                  <button style={{backgroundColor:"#304742", color:"#FDFAF2",width:"8rem", height:"5rem" }} onClick={handleShowResult} className='bi bi-arrow-right ' >
+                    <p>Se resultat</p>
                   </button>
                 ) : (
                   <>
                 {/* <Col>
                   <button onClick={handleSkip}>Skip Question</button>
                   </Col> */}
-              <Col>
-                <button style={{backgroundColor:"#304742", color:"#FDFAF2" }}  onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1} className='bi bi-arrow-right'>
+             
+                <button style={{backgroundColor:"#304742", color:"#FDFAF2", width:"8rem", height:"5rem" }}  onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1} className='bi bi-arrow-right'>
+                <p>Nästa fråga</p>
                 </button>
-              </Col>
+             
               </>
             )}
-              </Row>
-              <Row>
-                <Col>
-                <p>Tillbaka</p>
-                </Col>
-                <Col>
-                <p>Nästa fråga</p>
-                </Col>
-              </Row>
+              
+             
             </Container>
         </div>
       </div>
