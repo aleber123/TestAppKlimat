@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import questions from './QuizData'; // Import your questions data
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import styles from '../Fonts.module.css'; // Import your CSS module
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function Quiz() {
   const [userAnswers, setUserAnswers] = useState(Array(questions.length).fill(null));
@@ -77,11 +81,11 @@ function Quiz() {
     const progress = calculateProgress();
 
     return (
-      <div className="progress">
-        <div
+      <div className="progress" style={{backgroundColor:"#FDFAF2",}}>
+        <div 
           className="progress-bar"
           role="progressbar"
-          style={{ width: `${progress}%` }}
+          style={{ width: `${progress}%`, backgroundColor:"#304742" }}
           aria-valuenow={progress}
           aria-valuemin="0"
           aria-valuemax="100"
@@ -94,15 +98,22 @@ function Quiz() {
     const question = questions[currentQuestionIndex];
 
     return (
-      <div className="card mt-4" style={{ minHeight: "300px" }}>
-        <div className="card-header text-center text-danger">
-          <h2>My React Quiz Application</h2>
+      <div className='d-flex justify-content-center' style={{backgroundColor:"#BCD0A5"}}>
+      <div className="card mt-4 p-5" style={{ minHeight: "300px", backgroundColor:"#BCD0A5", width:"50%"}}>
+        <div className=" text-center">
+        <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} style={{color:"#304742"}} >KlimatQuiz: Matvanor</h2>
         </div>
         <div className="card-body">
-          <h5 className="card-title">{(currentQuestionIndex + 1) + ". " + question.question}</h5>
+        <div className="text-center">
+        <p className={`${styles.openSans} ${styles.p}`} style={{color:"#304742"}}>Fråga {currentQuestionIndex + 1} of {questions.length}  </p>
+         
+        </div>
+          <div className='p-5' style={{backgroundColor:"#FDFAF2", width:""}}>
+        <p className={`${styles.openSans} ${styles.p}`}>  {(currentQuestionIndex + 1) + ". " + question.question} </p>
+        </div>
           {question.options.map((option, optionIndex) => (
-            <div key={optionIndex} className="form-check">
-              <input
+            <div key={optionIndex} className="form-check pt-3">
+              <input 
                 className="form-check-input"
                 type="radio"
                 name={`question${currentQuestionIndex}`}
@@ -112,31 +123,46 @@ function Quiz() {
                 onChange={(e) => handleAnswerSelection(parseInt(e.target.value))}
               />
               <label className="form-check-label" htmlFor={`flexRadioDefault${optionIndex + 1}`}>
-                {option.text}
+              <p className={`${styles.openSans} ${styles.p}`}>  {option.text}</p>
+              
               </label>
             </div>
           ))}
         </div>
-        <div className="card-footer text-muted">
-          Question {currentQuestionIndex + 1} of {questions.length}
+       
+        <div >
+            <Container  >
+              <Row>
+              <Col>
+                <button style={{backgroundColor:"#304742", color:"#FDFAF2" }} onClick={handlePrevious} disabled={currentQuestionIndex === 0} className="bi bi-arrow-left">
+                </button>
+              </Col>
+                    {currentQuestionIndex === questions.length - 1 ? (
+                  <button style={{backgroundColor:"#304742", color:"#FDFAF2" }} onClick={handleShowResult} className='bi bi-arrow-right' >
+                  </button>
+                ) : (
+                  <>
+                {/* <Col>
+                  <button onClick={handleSkip}>Skip Question</button>
+                  </Col> */}
+              <Col>
+                <button style={{backgroundColor:"#304742", color:"#FDFAF2" }}  onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1} className='bi bi-arrow-right'>
+                </button>
+              </Col>
+              </>
+            )}
+              </Row>
+              <Row>
+                <Col>
+                <p>Tillbaka</p>
+                </Col>
+                <Col>
+                <p>Nästa fråga</p>
+                </Col>
+              </Row>
+            </Container>
         </div>
-        <div className="d-flex justify-content-between">
-          <button onClick={handlePrevious} disabled={currentQuestionIndex === 0}>
-            <i className="bi bi-arrow-left"></i>
-          </button>
-          {currentQuestionIndex === questions.length - 1 ? (
-            <button onClick={handleShowResult}>
-              <i className="bi bi-arrow-right"></i>
-            </button>
-          ) : (
-            <>
-              <button onClick={handleSkip}>Skip Question</button>
-              <button onClick={handleNext} disabled={currentQuestionIndex === questions.length - 1}>
-                <i className="bi bi-arrow-right"></i>
-              </button>
-            </>
-          )}
-        </div>
+      </div>
       </div>
     );
   };
