@@ -8,7 +8,7 @@ function KontaktaOss() {
     return (
       <Container>
         <Row>
-        <Col><h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} text-center`}>Det är vi som ansvarar för workshop</h3></Col>
+          <Col><h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} text-center`}>Det är vi som ansvarar för workshop</h3></Col>
         </Row>
         <Row className='d-flex justify-content-center'>
         <div className="d-flex justify-content-around pt-3" style={{width:'50%'}}> 

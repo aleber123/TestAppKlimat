@@ -16,7 +16,7 @@ function MallEtt() {
           <Card.Body>
           <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`} >Vad är en Workshop?</h2></Card.Title>
           <Card.Text className='text-center pt-5'>
-            <p className={`${styles.openSans} ${styles.p}`} >Genom att läsa vad en workshop innebär kan du lätt förbereda dig för kommande träff</p> 
+            <p className={`${styles.openSans} ${styles.p}`} >Genom att läsa vad en workshop är, kan du känna sig förberedd inför kommande träff.</p> 
           </Card.Text>
           </Card.Body>
         </Card>  
@@ -24,9 +24,9 @@ function MallEtt() {
       <Col>
         <Card style={{ width: '18rem',height:'20rem', backgroundColor:'#567B5D',color:'FDFAF2' }}>
           <Card.Body>
-            <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`}>Vad är en Workshop?</h2></Card.Title>
+            <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`}>Hur anmäler jag mig?</h2></Card.Title>
             <Card.Text className='text-center pt-5'>
-              <p className={`${styles.openSans} ${styles.p}`} >Genom att läsa vad en workshop innebär kan du lätt förbereda dig för kommande träff</p>
+              <p className={`${styles.openSans} ${styles.p}`} >För att medverka på en av våra workshop ser vi gärna att du amäler dig innan.</p>
             </Card.Text>
           </Card.Body>
         </Card>  

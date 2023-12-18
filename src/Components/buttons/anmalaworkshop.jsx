@@ -12,6 +12,7 @@ function AnmalaWorkshop() {
           color: '#304742',
           outline: 'none',
           border: '0px solid #374742',
+          
         }}
       >
         <span
