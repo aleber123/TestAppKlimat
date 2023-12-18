@@ -13,10 +13,17 @@ function Quiz() {
 
   const calculateTotalScore = () => {
     let totalScore = 0;
-    // Calculate the total score based on userAnswers
-    // ...
+  
+    // Loop through the user's answers and sum up the points
+    for (let i = 0; i < userAnswers.length; i++) {
+      if (userAnswers[i] !== undefined) {
+        totalScore += userAnswers[i]; // Assuming userAnswers stores points directly
+      }
+    }
+  
     return totalScore;
   };
+  
 
   const handleShowResult = () => {
     setShowResult(true);
