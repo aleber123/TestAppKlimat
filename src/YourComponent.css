@@ -1,0 +1,25 @@
+.pm_arrow-divider {
+    border-bottom: 1px solid #b9b1a8;
+    position: relative;
+    padding: 0;
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 1.3em;
+    width: 100%; /* Set the width as needed */
+  }
+  
+  .pm_arrow-divider::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -10px; /* Adjust arrow position based on your design */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #b9b1a8 transparent; /* Set arrow color */
+    transform: translateX(-50%);
+  }
+  
+  /* Additional style for a colored module */
+  .pm_arrow-divider--color-module {
+    color:blue;
+}
