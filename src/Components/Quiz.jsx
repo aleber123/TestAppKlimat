@@ -3,8 +3,11 @@ import questions from './QuizData'; // Import your questions data
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import styles from '../Fonts.module.css'; // Import your CSS module
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import KontaktCard from './KontaktCard';
+import Hero from './Hero';
+import MedelSvensson from './MedelSvensson';
+import Skeptiker from './Skeptiker';
+import IngetResultat from './IngetResultat';
 
 function Quiz() {
   const [userAnswers, setUserAnswers] = useState(Array(questions.length).fill(null));
@@ -50,13 +53,13 @@ function Quiz() {
 
     const categorizeUser = (totalScore) => {
       if (totalScore >= 0 && totalScore <= 10) {
-        return 'Category 4';
+        return <IngetResultat />;
       } else if (totalScore >= 11 && totalScore <= 16) {
-        return 'Category 1';
+        return <Hero />;
       } else if (totalScore >= 17 && totalScore <= 22) {
-        return 'Category 2';
+        return <MedelSvensson />;
       } else if (totalScore >= 23 && totalScore <= 29) {
-        return 'Category 3';
+        return <Skeptiker />;
       }
     };
 
@@ -156,8 +159,6 @@ function Quiz() {
              
               </>
             )}
-              
-             
             </Container>
         </div>
       </div>
@@ -173,8 +174,8 @@ function Quiz() {
       {renderQuestion()}
       {showResult && (
         <div>
-          <h2>Total Score: {totalScore}</h2>
-          <p>User Category: {userCategory}</p>
+          {/* <h2>Total Score: {totalScore}</h2> */}
+          <p> {userCategory}</p>
           {/* Other relevant information or components for the result */}
         </div>
       )}
