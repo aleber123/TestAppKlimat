@@ -6,9 +6,9 @@ import styles from '../Fonts.module.css'; // Import your CSS module
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg " style={{ height:"7rem", backgroundColor: '#304742' }}>
+    <nav className="navbar navbar-expand-lg " style={{ height:"12rem", backgroundColor: '#304742' }}>
       <Link to="./" >
-      <img style={{height:"100px", width:"100px"}} className='p-2' src="https://i.ibb.co/vxM3hm5/logotyp1.png"alt="logotyp" border="0" />
+      <img style={{height:"200px", width:"200px"}} className='p-2' src="https://i.ibb.co/vxM3hm5/logotyp1.png"alt="logotyp" border="0" />
       </Link> 
       <div className="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown ">
         <ul className="navbar-nav ">

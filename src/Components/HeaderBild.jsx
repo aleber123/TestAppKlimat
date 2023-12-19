@@ -13,7 +13,7 @@ function HeaderBild() {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'}}>
-            <div style={{color:'#FDFAF2', width:'100%', marginLeft:'60rem',paddingTop:'15rem'}}> 
+            <div style={{color:'#FDFAF2', width:'100%', marginLeft:'50%',paddingTop:'15rem'}}> 
             
            
              <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1}`}  >Väck passionen för planeten</h1>

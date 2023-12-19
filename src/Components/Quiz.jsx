@@ -3,7 +3,6 @@ import questions from './QuizData'; // Import your questions data
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import styles from '../Fonts.module.css'; // Import your CSS module
 import Container from 'react-bootstrap/Container';
-import KontaktCard from './KontaktCard';
 import Hero from './Hero';
 import MedelSvensson from './MedelSvensson';
 import Skeptiker from './Skeptiker';
