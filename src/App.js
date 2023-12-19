@@ -6,14 +6,16 @@ import Header from './Components/header'; // Import Header component
 import HeaderBild from './Components/HeaderBild';
 import MallEtt from './Components/MallEtt';
 import Footer from './Components/footer';
-import Quiz from './Components/Quiz'; // Import Quiz component
+import Quiz from './Components/Quiz';
 import Workshop from './Components/Workshop'; // Import Workshop component
 import Forum from './Components/Forum'; // Import Forum component
 import Kontakt from './Components/Kontakt'; // Import Kontakt component
-
+import Hero from './Components/Hero';
+import MedelSvensson from './Components/MedelSvensson';
 
 function App() {
  return (
+ 
    <Router>
      <div className="App">
        <Header />
@@ -26,7 +28,9 @@ function App() {
          {/* Add more routes as needed */}
        </Routes>
        <MallEtt />
-       <Footer />
+   <Hero />
+   <MedelSvensson />
+   
        <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1}`}>Rubrik 1</h1>
        <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Rubrik 2</h2>
        <h3 className={`${styles.openSans} ${styles.bold} ${styles.h3}`}>Rubrik 3</h3>
@@ -35,6 +39,7 @@ function App() {
        {/* ... Andra rubrik-element med olika typsnitt, vikter och storlekar */}
      </div>
    </Router>
+ 
  );
 }
 
