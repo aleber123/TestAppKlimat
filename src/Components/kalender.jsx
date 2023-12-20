@@ -12,10 +12,7 @@ function Kalender() {
         <div class="d-flex justify-content-between" style={{width:'80%'}} >
     
         <KalenderCard/>
-        <KalenderCard/>
-        <KalenderCard/>
-        <KalenderCard/>
-        <KalenderCard/>
+      
         </div>
         </div>
 </div>
