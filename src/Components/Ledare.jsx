@@ -15,12 +15,12 @@ const Ledare = () => {
 
   return (
     <div className='' style={{backgroundColor:'FDFAF2'}}>
-              <Container className='p-5' style={{width:'50%'}}>
+      <Container className='p-5' style={{width:'50%'}}>
         <Row>
           <Col><h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} text-center pb-3`}>Det är vi som ansvarar för workshop</h3></Col>
         </Row>
         <Row className='d-flex justify-content-center'>
-        <div className="d-flex justify-content-around pt-3" style={{width:'100%'}}>
+          <div className="d-flex justify-content-around pt-3" style={{width:'100%'}}>
 
         <Card style={{width: '17rem', height:'20rem', backgroundColor:'FDFAF2' }}>
         <Card.Img variant="top" src={kontakt2.picture} />
