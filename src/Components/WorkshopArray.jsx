@@ -33,4 +33,4 @@ export const getWorkshopInfo = () => {
     },   
   ];
 }
-  export default kontaktInfo;
+  export default getWorkshopInfo;
