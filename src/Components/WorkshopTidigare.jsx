@@ -11,7 +11,7 @@ function WorkshopTidigare() {
         <Row>
             <h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} pt-3 text-center`}>Tidigare Workshop</h3> 
         </Row>
-        <Row>
+        <Row className='pt-5'>
             <ListGroup style={{backgroundColor:'#FDFAF2'}} className='d-flex p-1'>
             <Row>
                 <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4} p-3`}>Arkiv</h4> 
