@@ -9,7 +9,7 @@ function WorkshopVadVy() {
     <HeaderBild/>
     <MallEtt/>
     <WorkshopVad />
-    <Ledare />
+    
 
 
  
