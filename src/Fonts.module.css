@@ -23,7 +23,7 @@
 
 .p {
   font-size: 21px;
-  font-family: 'roboto',
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Tablet */
@@ -78,7 +78,7 @@
 
   .p {
     font-size: 18px;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 }
 
