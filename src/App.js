@@ -3,11 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './style.css'; // If you have a global style file for your application
 import styles from './Fonts.module.css'; // Check if the path is correct
 import Header from './Components/header'; // Import Header component
-import HeaderBild from './Components/HeaderBild';
-import MallEtt from './Components/MallEtt';
-import Footer from './Components/footer';
 import Quiz from './Components/Quiz';
-
 import Forum from './Components/Forum'; // Import Forum component
 import Kontakt from './Components/Kontakt'; // Import Kontakt component
 import WorkshopVy from './Vyer/WorkshopVy';
@@ -36,3 +32,4 @@ function App() {
 
 
 export default App;
+
