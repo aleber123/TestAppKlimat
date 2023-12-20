@@ -12,7 +12,7 @@
             },
             {
                 id:"2",
-                picture:"https://img.freepik.com/free-photo/front-view-adults-studying-together_23-2150331658.jpg?w=740&t=st=1703021073~exp=1703021673~hmac=d0492974af91e2180004943b3d9507ab19159cd339381d917f76b15ef4540283",
+                picture:"https://img.freepik.com/free-photo/casual-senior-man-home_23-2148962323.jpg?w=1480&t=st=1703068879~exp=1703069479~hmac=931ce145cf0517688661925fac741e15893e1009950a94895d010324ce4ba08a",
                 Namn: "Jonas Berglund",
                 yrke: "Ekomoni ansvarig",
                 mail: "Jonas@klimatkompassen.se"
@@ -34,7 +34,7 @@
             {
                 id:"5",
                 picture:"https://img.freepik.com/free-photo/medium-shot-elderly-woman-studying-classroom_23-2150312856.jpg?w=1480&t=st=1703021228~exp=1703021828~hmac=887397a17e709da5d9b81add7605e316c4e5d6c2f4ac0489aeac418b9d9aaa21 ",
-                Namn: "Ulrika Öhman",
+                Namn: "Ulrika Öberg",
                 yrke: "kommunikatör",
                 mail: "Ulrika@klimatkompassen.se"
             },   
