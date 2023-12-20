@@ -2,7 +2,7 @@ export const getWorkshopInfo = () => {
     return [
     {
       id:"1",
-      picture:"https://img.freepik.com/free-photo/portrait-biologist-scientist-white-coat-working-expertise-laboratory-looking-into-microscope-analyzing-organic-gmo-leaf_482257-2118.jpg?w=2000&t=st=1703022094~exp=1703022694~hmac=9dc984a047410ff4e9d92c124d9a0dfaec604c16508e17ff253b7a694006adef",
+      picture:"https://img.freepik.com/free-photo/young-plants-growing-very-large-plant-commercial-greenhouse_273609-14259.jpg?w=1480&t=st=1703071952~exp=1703072552~hmac=f51acfc7daef9226c391708802ae663fd65bb9f674b59e561237ecf8e45ae08b",
       Namn: "Framtidens Mat",
       
       
