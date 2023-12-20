@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 
 function AnmalFormular() {
   return (
-    <div style={{backgroundColor:'#304742'}}className='pb-5'>
+    <div style={{backgroundColor:'#304742'}}className='p-5'>
           <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-3`} style={{color:'#FDFAF2'}}>Anmälan till workshop</h1>
         <div className='d-flex justify-content-center'  >
         <Form className=" pt-3" style={{width:'50%'}}>
