@@ -1,4 +1,4 @@
-import Button from 'react-bootstrap/Button';
+
 import Card from 'react-bootstrap/Card';
 import styles from '../Fonts.module.css'; // Import your CSS module
 import { getkontaktInfo } from './KontaktArray';
@@ -7,7 +7,7 @@ function KontaktCard() {
  const kontaktArray= getkontaktInfo();
   return kontaktArray.map((kontakt) => (
 
-    <Card style={{ width: '16rem', height:"20rem", backgroundColor:'FDFAF2' }}>
+    <Card style={{ width: '20rem', height:"20rem", backgroundColor:'FDFAF2' }}>
        <Card.Img
         style={{ height: '10rem', width: 'auto', objectFit: 'cover' }}
         variant="top"
