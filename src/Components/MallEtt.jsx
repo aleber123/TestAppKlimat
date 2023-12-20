@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import styles from '../Fonts.module.css'; // Import your CSS module
-
+import { Link } from 'react-router-dom';
 
 function MallEtt() {
     return (
@@ -14,14 +14,18 @@ function MallEtt() {
 <div class="d-flex justify-content-center p-5">
   <Row class="d-flex justify-content-between">
       <Col>
-        <Card style={{ width: '22rem', height:'25rem', backgroundColor:'#567B5D',color:'FDFAF2' }} className='pl-5'>
+     
+        <Card style={{ width: '22rem', height:'25rem', backgroundColor:'#567B5D',color:'FDFAF2' }} className='pl-5 user-select-all'>
           <Card.Body>
+          <Link to="./workshopVadVy">
           <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`} >Vad är en Workshop?</h2></Card.Title>
+          </Link>
           <Card.Text className='text-center pt-5'>
             <p className={`${styles.openSans} ${styles.p}`} >Genom att läsa vad en workshop är, kan du känna sig förberedd inför kommande träff.</p> 
           </Card.Text>
           </Card.Body>
         </Card>  
+       
       </Col>
       <Col>
         <Card style={{ width: '22rem',height:'25rem', backgroundColor:'#567B5D',color:'FDFAF2' }}>
