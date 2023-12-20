@@ -1,8 +1,10 @@
+
 import AnmalaWorkshop from "./buttons/anmalaworkshop";
-import KontaktCard from "./KontaktCard";
+
 import KontaktButton from "./buttons/kontaktButton";
-import KontaktaOss from "./kontaktaOss";
+
 import styles from '../Fonts.module.css'; // Import your CSS module
+import Ledare from "./Ledare";
 
 function WorkshopVad() {
     return(
@@ -25,8 +27,8 @@ Våra workshops leds av grundarna för projektet, ibland sammarbetar vi med gäs
         </div>
         <h3 className="text-center">Det är vi som ansvarar för Workshop</h3>
         <div className="d-flex justify-content-center pt-3"> 
-        <KontaktCard/>
-        <KontaktCard/>
+        
+      
         </div>
         <div className="d-flex justify-content-center p-5 ">
         <KontaktButton/>
