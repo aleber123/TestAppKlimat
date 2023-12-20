@@ -109,16 +109,18 @@ function Quiz() {
 
         return (
             <div className='d-flex justify-content-center' style={{ backgroundColor: "#BCD0A5" }}>
-                <div className="card mt-4 p-5" style={{ minHeight: "300px", backgroundColor: "#BCD0A5", width: "50%" }}>
+                <div className="card m-5 p-5" style={{ minHeight: "300px", backgroundColor: "#FDFAF2", width: "50%" }}>
                     <div className=" text-center">
                         <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} style={{ color: "#304742" }} >KlimatQuiz: Matvanor</h2>
                     </div>
+                    {renderProgressBar()}
+
                     <div className="card-body">
                         <div className="text-center">
-                            <p className={`${styles.openSans} ${styles.p}`} style={{ color: "#304742" }}>Fråga {currentQuestionIndex + 1} of {questions.length}  </p>
+                            <p className={`${styles.openSans} ${styles.p} ${styles.bold} `} style={{ color: "#304742" }}>Fråga {currentQuestionIndex + 1} of {questions.length}  </p>
                         </div>
                         <div className='p-5' style={{ backgroundColor: "#FDFAF2", width: "" }}>
-                            <p className={`${styles.openSans} ${styles.p}`}>  {(currentQuestionIndex + 1) + ". " + question.question} </p>
+                            <p className={`${styles.openSans} ${styles.p} ${styles.bold} `}>  {(currentQuestionIndex + 1) + ". " + question.question} </p>
                         </div>
                         {question.options.map((option, optionIndex) => (
                             <div key={optionIndex} className="form-check pt-3 m-5">
@@ -136,7 +138,7 @@ function Quiz() {
                                 </label>
                             </div>
                         ))}
-                        {renderProgressBar()}
+                        
                     </div>
                     <div >
                         <Container className='d-flex justify-content-between' >
