@@ -12,7 +12,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Header() {
   return (
-    <div style={{ height: '10rem', backgroundColor: '#304742' }}>
+    <div style={{ height: '10rem', width:"", backgroundColor: '#304742' }}>
       <Navbar className='p-3' >
         <Navbar.Brand>
           <span className=''>
