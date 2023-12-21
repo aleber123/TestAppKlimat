@@ -1,13 +1,15 @@
 
 
 import styles from '../Fonts.module.css'; // Import your CSS module
-import Synka from '../buttons/Synka';
+import Synka from './buttons/Synka';
+import Container from 'react-bootstrap/Container';
+
 
 function SynkaHel() {
     return(
         <div style={{backgroundColor:'#BCD0A5', width:'100%'}} className='pb-3 d-flex justify-content-center '>
             
-            <div class="d-flex justify-content-center block-example border border-dark p-3"style={{backgroundColor:'#FDFAF2', width:'80%'}} >
+            <Container class="d-flex justify-content-center block-example border border-dark p-3"style={{backgroundColor:'#FDFAF2', width:'80%'}} >
                 <div  > 
                   
                 <p className={`${styles.openSans} ${styles.bold} ${styles.p} pb-1 text-center` } style={{color:'#304742'}}>Synka alla event till din kalender</p>
@@ -20,7 +22,7 @@ function SynkaHel() {
                 </div>
 
                
-            </div>
+            </Container>
            
             
         </div>
