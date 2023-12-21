@@ -18,13 +18,13 @@ function Hero() {
 <Col>
 <img src="https://i.ibb.co/C50Ncm6/Milj-hj-lte.png  " alt="Hero" border="0" />
 </Col>
-<Col>
+<Col className='border border-dark p-3'>
 <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2} pt-6`}>Du är en Miljöhjälte</h2>
 <p className={`${styles.openSans} ${styles.p} pt-4`}> Du blev miljöhjälten! Du gör många kloka val idag kopplat till din kost. Bra jobbat! Vi vill ändå ge dig några tips om det är så att du vill göra ännu fler förbättringar i din vardag. Men kom ihåg - du behöver inte göra allt. Vi tycker det är viktigare att anpassa sin livsstil till en jämn nivå som vi klarar av än att lägga ribban för högt och minska ner på hållbara förändringar bara för att vi inte orkar upprätthålla dem.</p>
 <div>
 <hr></hr>
 <Form>
-<Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+<Form.Group className="mb-3 " controlId="exampleForm.ControlInput1 ">
         <Form.Label><p className={`${styles.openSans} ${styles.p}`}>Få ditt resultat på mail</p></Form.Label>
         <Form.Control type="email" placeholder="name@example.com" />
       </Form.Group>
@@ -33,8 +33,9 @@ function Hero() {
 </Col>
 </Row>
 </Container>
-<Container>
-<h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} pt-3`}>Förbättringsförslag</h3>
+<hr></hr>
+<Container className='p-5'>
+<h3 className={`${styles.openSans} ${styles.bold} ${styles.h3} pt-3 text-center`}>Förbättringsförslag</h3>
 <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4} pt-4`}>Minska ditt matsvinn</h4>
 <p className={`${styles.openSans} ${styles.p} pt-3`}> Planera en dag i veckan där du går igenom kyl, frys och skafferi
 Det finns olika saker vi kan göra för att minska vårt matsvinn. Ett råd är att gå igenom kyl, frys och skafferi regelbundet varje vecka. Dels för att inte råka handla sådant du redan har hemma och dels för att planera middagar efter mat som är på väg att nå bäst före datum eller har kort hållbarhet. Välj en dag i veckan och gör dig påmind genom att skriva upp i kalendern eller lägga en notis i mobilen. 
