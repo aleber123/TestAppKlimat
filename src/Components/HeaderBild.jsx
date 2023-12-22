@@ -1,26 +1,44 @@
-import AnmalaWorkshop from "./buttons/anmalaworkshop";
-import Placeholder from 'react-bootstrap/Placeholder';
-import styles from '../Fonts.module.css'; // Import your CSS module
-
+import React from 'react';
+import AnmalaWorkshop from './buttons/anmalaworkshop';
+import styles from '../Fonts.module.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HeaderBild() {
-    return (
-<div >
+  const backgroundImageURL = 'https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
 
-        <div style={{backgroundImage: 'url(https://img.freepik.com/free-photo/environmental-conservation-garden-children_1150-15276.jpg?w=1480&t=st=1702479325~exp=1702479925~hmac=9754f7f356af68a0c1c6a71d84116456c0d96d09d63f98f7b6d07ac4546af52f)', 
-            width:'100%', 
-            height:'40rem',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover'}}>
-            <div style={{color:'#FDFAF2', width:'100%', marginLeft:'50%',paddingTop:'15rem'}}> 
-            
-           
-             <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1}`}  >Väck passionen för planeten</h1>
-                <p className= {`${styles.openSans} ${styles.p} p-3`} >Skapa en grönare framtid för nästa generation</p>
-                <AnmalaWorkshop/>
-            </div>  
+  const containerStyle = {
+    backgroundImage: `url(${backgroundImageURL})`,
+    width: '100%',
+    height: '40rem',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+  };
+
+  const contentStyle = {
+    color: '#FDFAF2',
+    marginTop: '20rem', // Justera detta för att ändra avståndet från toppen
+  };
+
+  const textWithShadowStyle = {
+    textShadow: '5px 5px 10px rgba(0, 0, 0, 1)', // Lägg till svart textskugga
+  };
+
+  return (
+    <div className="d-flex align-items-center justify-content-center" style={containerStyle}>
+      <div className="text-center" style={contentStyle}>
+        <h1 className={`p-2 ${styles.openSans} ${styles.bold} ${styles.h1}`} style={{ ...textWithShadowStyle }}>
+          Bli en klimatsmart pensionär
+        </h1>
+        <h2 className={`${styles.openSans} ${styles.h2} p-3`} style={{ ...textWithShadowStyle }}>
+          Delta på en workshop
+        </h2>
+        <div className="text-center">
+          <AnmalaWorkshop />
         </div>
-</div>
-    );
-}export default HeaderBild;
+      </div>
+    </div>
+  );
+}
+
+export default HeaderBild;
