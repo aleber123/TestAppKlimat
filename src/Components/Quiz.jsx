@@ -8,6 +8,7 @@ import MedelSvensson from './MedelSvensson';
 import Skeptiker from './Skeptiker';
 import IngetResultat from './IngetResultat';
 
+
 function Quiz() {
     const [userAnswers, setUserAnswers] = useState(Array(questions.length).fill(null));
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -109,6 +110,7 @@ function Quiz() {
 
         return (
             <div className='d-flex justify-content-center' style={{ backgroundColor: "#BCD0A5" }}>
+               
                 <div className="card m-5 p-5" style={{ minHeight: "300px", backgroundColor: "#FDFAF2", width: "50%" }}>
                     <div className=" text-center">
                         <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} style={{ color: "#304742" }} >KlimatQuiz: Matvanor</h2>
