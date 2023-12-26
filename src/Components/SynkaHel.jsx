@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 
 function SynkaHel() {
     return(
-        <div style={{backgroundColor:'#BCD0A5', width:'100%'}} className='pb-3 d-flex justify-content-center '>
+        <div style={{backgroundColor:'#FDFAF2', width:'100%'}} className='pb-3 d-flex justify-content-center '>
             
             <Container class="d-flex justify-content-center block-example border border-dark p-3"style={{backgroundColor:'#FDFAF2', width:'80%'}} >
                 <div  > 

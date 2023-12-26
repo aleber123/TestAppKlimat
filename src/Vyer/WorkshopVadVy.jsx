@@ -1,7 +1,8 @@
 import HeaderBild from '../Components/HeaderBild';
-import Ledare from '../Components/Ledare';
+
 import MallEtt from '../Components/MallEtt';
 import WorkshopVad from '../Components/WorkshopVad';
+import Ledare from '../Components/Ledare';
 
 function WorkshopVadVy() {
   return (
@@ -9,10 +10,7 @@ function WorkshopVadVy() {
     <HeaderBild/>
     <MallEtt/>
     <WorkshopVad />
-    
-
-
- 
+    <Ledare />
 </div> 
   );
 }

@@ -13,13 +13,14 @@ function KalenderCard() {
       <Card.Img variant="top" src={work.picture}  />
       <Card.Body>
        
-        <Card.Title style={{ height: '3rem', backgroundColor:'FDFAF2' }} className={`${styles.openSans} ${styles.bold} ${styles.h3} text-center p-2`} >{work.Namn}</Card.Title>
+        <Card.Title style={{ height: '3rem', backgroundColor:'FDFAF2' }} className={`${styles.openSans} ${styles.bold} ${styles.p} text-center p-2`} >{work.Namn}</Card.Title>
         <div class="d-flex justify-content-center p-2">
         <Button style={{
                 width: '10rem',
                 height: '3rem',
-                marginTop: '2rem',
+                marginTop: '5rem',
                 backgroundColor: '#567B5D',
+                borderRadius: '50px',
                 
               }}><p className={`${styles.openSans} ${styles.p} 'd-flex justify-content-center' `} style ={{color:'#FDFAF2'}}>Till Workshop</p></Button>
         </div>

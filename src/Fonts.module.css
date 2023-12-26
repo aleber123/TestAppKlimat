@@ -1,3 +1,10 @@
+.hoverEffect:hover {
+  transform: scale(1.05); /* Öka skalan på hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Lägg till en skugga på hover */
+  
+}
+
+
 /* Fonts.module.css */
 
 /* Desktop */

@@ -1,13 +1,13 @@
 import MallEtt from '../Components/MallEtt';
 import styles from '../Fonts.module.css'; // Import your CSS module
-import WorkshopVad from '../Components/WorkshopVad';
-import HeaderBild from '../Components/HeaderBild';
-import Header from '../Components/header';
+import WorkshopHeader from '../Components/WorkshopHeader';
+
+
 function WorkshopVy() {
   return (
 <div>
    
-    <HeaderBild/>
+    <WorkshopHeader/>
     <MallEtt />
 </div> 
   );

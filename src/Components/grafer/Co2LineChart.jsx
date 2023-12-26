@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
+
 const Co2Chart = () => {
   const [data, setData] = useState([]);
 
@@ -24,11 +25,12 @@ const Co2Chart = () => {
 
   return (
     <div style={{backgroundColor:'#FDFAF2'}}>
-      <LineChart width={730} height={250} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
+      <LineChart width={530} height={350} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="Year" />
-        <YAxis type="number" domain={['auto', 'auto']} /> {/* skalar upp yaxel efter behov */}
-        <Line type="monotone" dataKey="Total" stroke="#304742" />
+        <YAxis type="Total" domain={['auto', 'auto']} /> {/* skalar upp yaxel efter behov */}
+        <Line type="monotone" dataKey="Total" stroke="#304742" trokeWidth={2}
+          dot={false} /> 
       </LineChart>
     </div>
   );

@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
-
+import styles from '../../Fonts.module.css'
 
 function KontaktButton() {
   return (
     <div>
-      <Button
+      <Button className={`${styles.hoverEffect}`}
         style={{
           width: '20rem',
           height: '3rem',
@@ -22,7 +22,7 @@ function KontaktButton() {
             fontWeight: '500', // Use '500' for medium weight
           }}
         >
-          Kontakta oss
+         <p className={`${styles.openSans} ${styles.p} p-1`}>Kontakta oss</p>
         </span>
       </Button>
     </div>

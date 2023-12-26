@@ -21,28 +21,35 @@ function Header() {
             </Link>
           </span>
         </Navbar.Brand>
-        <p className={`${styles.openSans} ${styles.p} p-2`} style={{ color: '#FDFAF2' }}>Klimatkompassen</p>
+       
         <Container>
+        <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins}  ${styles.h4}`}>Startsida</h4>
+            </Link>
           <Nav className="d-flex justify-content-around w-100">
-            <Link className={`nav-link ${styles.poppins}`} to="/quiz" style={{ color: '#FDFAF2' }}>
-              <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4} px-2`}>Quiz</h4>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/quizheader" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins}  ${styles.h4} `}>Quiz</h4>
+            </Link>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/mallfem" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins} ${styles.h4}`}>Utmana</h4>
             </Link>
 
-            <Link className={`nav-link ${styles.poppins}`} to="/forum" style={{ color: '#FDFAF2' }}>
-              <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4}`}>Forum</h4>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/mallsex" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins}  ${styles.h4}`}>Diskutera</h4>
             </Link>
 
-            <Link className={`nav-link ${styles.poppins}`} to="/workshop" style={{ color: '#FDFAF2' }}>
-              <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4}`}>Workshop</h4>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/workshop" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins}  ${styles.h4}`}>Workshop</h4>
             </Link>
 
-            <Link className={`nav-link ${styles.poppins}`} to="/nyheter" style={{ color: '#FDFAF2' }}>
-              <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4}`}>Fakta</h4>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/Malltre" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins}  ${styles.h4}`}>Lära</h4>
             </Link>
 
-            <Link className={`nav-link ${styles.poppins}`} to="/kontakt" style={{ color: '#FDFAF2' }}>
-              <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4}`}>Kontakt</h4>
+            <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/malltva" style={{ color: '#FDFAF2' }}>
+              <h4 className={`${styles.poppins} ${styles.h4}`}>Om oss</h4>
             </Link>
+
           </Nav>
         </Container>
       </Navbar>

@@ -1,15 +1,16 @@
 import Button from 'react-bootstrap/Button';
+import styles from '../../Fonts.module.css'
 
 function AnmalaWorkshop() {
   return (
-    <div>
-      <Button
+    <div >
+      <Button className={`${styles.hoverEffect}`}
         style={{
           width: '30rem',
-          height: '4rem',
-          backgroundColor: '#BCD0A5',
+          height: '3rem',
+          backgroundColor: '#567B5D',
           borderRadius: '50px',
-          color: '#304742',
+          color: '#FDFAF2',
           outline: 'none',
           border: '0px solid #374742',
           
@@ -22,7 +23,7 @@ function AnmalaWorkshop() {
             fontWeight: '500', // Use '500' for medium weight
           }}
         >
-          Anmäl dig till WORKSHOP
+          <p className={`${styles.openSans} ${styles.p}`}>Anmäl dig till WORKSHOP</p>
         </span>
       </Button>
     </div>

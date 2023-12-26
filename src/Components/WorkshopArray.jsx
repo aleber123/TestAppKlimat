@@ -9,26 +9,26 @@ export const getWorkshopInfo = () => {
     },
     {
         id:"2",
-        picture:"https://img.freepik.com/premium-photo/mix-dried-fruits-wooden-table_211889-688.jpg?w=1480",
+        picture:"https://img.freepik.com/free-photo/crop-hands-elderly-woman-cooking-delicious-dish-kitchen_23-2147810073.jpg?w=1480&t=st=1703352858~exp=1703353458~hmac=22eb455130a353b972e041b33aeb96c379feab0df9e23387cda4d81b04fcf2cd",
         Namn: "Säsongsbetonade Ingredienser",
        
     },
     {
         id:"3",
-        picture:"https://img.freepik.com/free-photo/young-farmer-taking-care-his-business_329181-15958.jpg?w=1480&t=st=1703022274~exp=1703022874~hmac=6347065c16656e4cbd5389b3397b8c82b5a7e421a12dfae4841119bdc1caa7ba",
+        picture:"https://img.freepik.com/free-photo/man-holding-basket-with-vegetables_23-2148579689.jpg?w=1480&t=st=1703353035~exp=1703353635~hmac=be56bd6be315c4d0d9e33f27327585301527088a0cb573ce5ef55aba43482c74",
         Namn: "Besök från Lokala Producenter",
         
     },
     {
         id:"4",
-        picture:"https://img.freepik.com/free-photo/person-holding-bowl-salad-made-dehydrated-onions_181624-23126.jpg?w=1480&t=st=1703022325~exp=1703022925~hmac=48ea2f87f9f77a472ef0698a4b6edd4c9f3f4e1918bb6cea36a3f95cb0b87c2d",
-        Namn: " Klimatpåverkan av Mat",
+        picture:"https://img.freepik.com/free-photo/beautiful-shot-wind-turbines-cloudy-sky-eiffel-region-germany_181624-7922.jpg?w=1480&t=st=1703352933~exp=1703353533~hmac=c51702501238be2a65aec5f7c84c538e55f745f73f5ab0872e664f995b3880e3",
+        Namn: " Framtidens energi",
     
     },
     {
         id:"5",
-        picture:"https://img.freepik.com/free-photo/celebrating-with-sparklers-night_53876-18286.jpg?w=1480&t=st=1703022358~exp=1703022958~hmac=3dbd059816c1218232aa7b21aba953b491541c12d414d2146bc1d43d20109af0",
-        Namn: "Klimatsmart Nyårsmiddag",
+        picture:"https://img.freepik.com/free-photo/sustainable-energy-campaign-hand-holding-tree-light-bulb-media-remix_53876-104824.jpg?w=1480&t=st=1703352984~exp=1703353584~hmac=27539ab5066ccee349dc99401b16f3bfdf561c0c1e948120e8fd4752e2d9103c",
+        Namn: "Energispara i ditt hem",
       
     },   
   ];

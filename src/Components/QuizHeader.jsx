@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Starta from './buttons/StartaQuiz';
 
 function QuizHeader() {
-  const backgroundImageURL = 'https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
+  const backgroundImageURL = 'https://img.freepik.com/free-photo/fresh-organic-plant-growth-modern-greenhouse-technology-generated-by-ai_188544-37874.jpg?t=st=1703329836~exp=1703333436~hmac=94c7d6c103b755000c6514f13895005033e21e1fd7eb2c274be8f3eee7e66286&w=1800';
 
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,
@@ -20,12 +20,7 @@ function QuizHeader() {
     color: '#FDFAF2',
     marginTop: '10rem', // Justera detta för att ändra avståndet från toppen
     backgroundColor: 'rgba(48, 71, 66, 0.75)', // 75% opacitet,
-   
-
   };
-
- 
-
   return (
     <div className="d-flex align-items-center justify-content-center flex-column" style={containerStyle}>
       <Container className="text-center p-5" style={contentStyle}>

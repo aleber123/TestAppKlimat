@@ -7,7 +7,7 @@ function KontaktCard() {
  const kontaktArray= getkontaktInfo();
   return kontaktArray.map((kontakt) => (
 
-    <Card style={{ width: '20rem', height:"20rem", backgroundColor:'FDFAF2' }}>
+    <Card style={{ width: '15rem', height:"20rem", backgroundColor:'FDFAF2' }}>
        <Card.Img
         style={{ height: '10rem', width: 'auto', objectFit: 'cover' }}
         variant="top"

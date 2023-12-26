@@ -24,7 +24,7 @@ function StartSida() {
                     <h4 className={`${styles.poppins} ${styles.bold} ${styles.h4} p-4 text-center`}>Vad är en Workshop?</h4>
                     <p className={`${styles.openSans} ${styles.p} p-5`}>En workshop är en interaktiv och engagerande träff eller session där deltagarna aktivt deltar i praktiska övningar, diskussioner och aktiviteter med målet att lära sig nya färdigheter, öka kunskapen eller samarbeta för att lösa specifika problem. Workshops kan variera i format och ämnen och kan vara allt från kreativa övningar och problemlösningsgrupper till mer strukturerade utbildningssessioner</p>
                     </Col>
-                    <Col style={{backgroundImage:'url(https://img.freepik.com/free-photo/senior-people-school-during-class-with-laptop-computer_23-2150104973.jpg?w=1480&t=st=1703336261~exp=1703336861~hmac=7b049e8f85d33a032c9677f6763bde18cd8547e85274bf5227e86bc2c1a701f8)', backgroundSize:'cover',
+                    <Col style={{backgroundImage:'url(https://img.freepik.com/free-photo/senior-people-school-during-class-with-laptop-computer_23-2150105015.jpg?w=1480&t=st=1703353120~exp=1703353720~hmac=f238986464b225cafb681d5ba0b5e0f7b7a8b8e71e7813a6b5e0a6f443420432)', backgroundSize:'cover',
                     backgroundPosition: 'center',height:'32rem'}}>
 
                     </Col>

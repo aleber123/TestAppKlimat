@@ -3,6 +3,7 @@ import styles from '../Fonts.module.css'; // Import your CSS module
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
 function WorkshopTidigare() {
   return (
     <div style={{backgroundColor:'#BCD0A5', width:'100%'}}  className='d-flex justify-content-center '>
@@ -21,10 +22,12 @@ function WorkshopTidigare() {
             </Row> 
             <ListGroup.Item className='mt-1 list-group-item d-flex'>
                 <div className='block-example border border-dark'>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> 21/1</p>
+                    <p className={`${styles.openSans} ${styles.p} m-3`}> 21/1</p>
                 </div>
                 <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                 </div>
             </ListGroup.Item>
             <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -32,7 +35,9 @@ function WorkshopTidigare() {
                     <p className={`${styles.openSans} ${styles.p} p-3`}> 21/1</p>
                 </div>
                 <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                 </div>
             </ListGroup.Item>
             <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -40,15 +45,19 @@ function WorkshopTidigare() {
                     <p className={`${styles.openSans} ${styles.p} p-3`}> 21/2</p>
                 </div>
                 <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                 </div>
             </ListGroup.Item>
             <ListGroup.Item className='mt-1 list-group-item d-flex'>
                 <div className='block-example border border-dark'>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> 21/3</p>
+                <p className={`${styles.openSans} ${styles.p} p-3`}> 21/2</p>
                 </div>
                 <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/omworkshop" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                 </div>
             </ListGroup.Item>
             </ListGroup>
@@ -61,7 +70,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 24/1</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link> 
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -69,7 +80,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 21/3</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -77,7 +90,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 15/7</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -85,7 +100,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 20/1</p>
                     </div>
                     <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
             </ListGroup>
@@ -98,7 +115,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 18/1</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -106,7 +125,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 14/3</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -114,7 +135,9 @@ function WorkshopTidigare() {
                         <p className={`${styles.openSans} ${styles.p} p-3`}> 22/5</p>
                     </div>
                     <div>
-                        <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect}`} to="/" style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
                 <ListGroup.Item className='mt-1 list-group-item d-flex'>
@@ -122,7 +145,9 @@ function WorkshopTidigare() {
                     <p className={`${styles.openSans} ${styles.p} p-3`}> 21/8</p>
                     </div>
                     <div>
-                    <p className={`${styles.openSans} ${styles.p} p-3`}> Eco-Adventures: Semestra med Klimathänsyn</p> 
+                    <Link className={`nav-link ${styles.poppins} ${styles.hoverEffect} "nav-link"`}  to="/omworkshop"  style={{ color: '' }}>
+              <p className={`${styles.poppins}  ${styles.p} m-3`}>Eco-Adventures: Semestra med Klimathänsyn</p>
+            </Link>
                     </div>
                 </ListGroup.Item>
             </ListGroup>

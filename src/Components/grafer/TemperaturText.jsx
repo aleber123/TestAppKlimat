@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Temperatur from './Temperatur';
+import styles from '../../Fonts.module.css'
 
 function TemperaturText() {
   return (
@@ -14,9 +15,11 @@ function TemperaturText() {
             <Temperatur />
             </Col>
             <Col>
-            <p >
-                Sveriges miljömål beskriver att de senaste åren - 2015 till 2022 - har utgjort de åtta varmaste åren som har registrerats. Huvudorsaken till den observerade uppvärmningen av jordens klimat är den förändring av luftens kemiska sammansättning som människan orsakar genom utsläpp av växthusgaser sveriges miljömål. Förutom av mänsklig verksamhet påverkas klimatet, i olika tidshorisonter, även av naturliga fenomen såsom vulkanutbrott, förändringar i solens aktivitet, förändringar i jordens rörelser runt solen och runt sin egen axel, samt interna variationer i klimatet exempelvis ”El Niño”-cyklerna
+            <p className={`${styles.openSans} ${styles.p} pt-2`}>
+            Diagrammet visar höjningen av den globala temperaturen i grader celcius under 1900-talet. 
+            Lufttemperaturen på jorden stiger och det finns övervägande bevisning att mänskliga aktiviteter, särskilt utsläpp av växthusgaser är huvudsakligen ansvariga för att göra planeten varmare. Enligt en pågående temperaturanalys ledd av forskare vid NASA:s Goddard Institute for Space Studies har den genomsnittliga globala temperaturen på jorden ökat med minst 1,1° Celsius sedan 1880. Större delen av uppvärmningen har skett sedan 1975, med en hastighet på ungefär 0,15 till 0,20°C per årtionde.
             </p>
+            <p>Källa:NASA</p>
             </Col>
         </Row>
 
