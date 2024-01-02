@@ -11,7 +11,7 @@ function Skeptiker() {
   return (
 <div style={{backgroundColor:"#FDFAF2"}}>
 <Container >
-<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center`}> Här är ditt resultat</h1>
+<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-5`}> Här är ditt resultat</h1>
 </Container>
 <Container className='p-3'>
 
@@ -19,7 +19,7 @@ function Skeptiker() {
 <Col>
 <img src="https://i.ibb.co/c6K1zJ5/Milj-skeptikern.png" alt="Hero" border="0" /> 
 </Col>
-<Col>
+<Col className='border border-dark p-3'>
 <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2} pt-6`}>Du är en Miljöskeptiker</h2>
 <p className={`${styles.openSans} ${styles.p} pt-4`}> Du blev miljöskeptikern! Ajdå! Men misströsta inte, du har nu chansen att ändra på några av dina matvanor. Alla möjligheter ligger framför dig. Dina matvanor idag är sämre ur klimatsynpunkt än medelsvensken. En omställning behövs och den genomsnittliga kosten hos medelsvensken idag är inte hållbar för framtiden och de klimatmål som EU och världen satt upp. Vi har sammanställt en lista med tips och råd på hur du kan göra mer klimatsmarta val i din vardag. Börja med den vana som känns enklast att bibehålla och fortsätt sedan därifrån. Varje steg gör skillnad. Ta ett steg i rätt riktning, vi tror på dig!</p>
 <div>

@@ -22,7 +22,7 @@ function MallEtt() {
         <Card   style={{ width: '22rem', height: '25rem', backgroundColor: '#567B5D', color: 'FDFAF2', transition: 'transform 0.2s' }}
       className={`pl-5 user-select-all ${styles.hoverEffect}`} >
           <Card.Body >
-          <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`} >Vad är en Workshop?</h2></Card.Title>
+          <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.h2}`} >Vad är en Workshop?</h2></Card.Title>
           <Card.Text className='text-center pt-5'>
             <p className={`${styles.openSans} ${styles.p}`} >Genom att läsa vad en workshop är, kan du känna sig förberedd inför kommande träff.</p> 
           </Card.Text>
@@ -37,7 +37,7 @@ function MallEtt() {
         <Card style={{ width: '22rem', height: '25rem', backgroundColor: '#567B5D', color: 'FDFAF2', transition: 'transform 0.2s' }}
       className={`pl-5 user-select-all ${styles.hoverEffect}`}>
           <Card.Body>
-            <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`}>Hur anmäler jag mig?</h2></Card.Title>
+            <Card.Title className='text-center'><h2 className= {`${styles.poppins}  ${styles.h2}`}>Hur anmäler jag mig?</h2></Card.Title>
             <Card.Text className='text-center pt-5'>
               <p className={`${styles.openSans} ${styles.p}`} >För att medverka på en av våra workshop ser vi gärna att du amäler dig innan.</p>
             </Card.Text>
@@ -52,7 +52,7 @@ function MallEtt() {
         <Card style={{ width: '22rem', height: '25rem', backgroundColor: '#567B5D', color: 'FDFAF2', transition: 'transform 0.2s' }}
       className={`pl-5 user-select-all ${styles.hoverEffect}`}>
           <Card.Body>
-          <Card.Title className='text-center'><h2 className= {`${styles.poppins} ${styles.bold} ${styles.h2}`} >Om våra workshops</h2></Card.Title>
+          <Card.Title className='text-center'><h2 className= {`${styles.poppins}  ${styles.h2}`} >Om våra workshops</h2></Card.Title>
           <Card.Text className='text-center pt-5'>
             <p className={`${styles.openSans} ${styles.p}`} >Missa inte ett tilfälle att träffas och prata om miljön</p>
           </Card.Text>

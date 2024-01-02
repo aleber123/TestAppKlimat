@@ -4,7 +4,7 @@ import styles from '../Fonts.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function WorkshopHeader() {
-  const backgroundImageURL = 'https://img.freepik.com/free-photo/hand-touching-fresh-grass-sunset_1150-444.jpg?w=1480&t=st=1703330115~exp=1703330715~hmac=333e53e4774e893b282a946218db81884b9f730f5eaa5eb1ed98efab3abd3d3c';
+  const backgroundImageURL = 'https://img.freepik.com/free-photo/aerial-view-beautiful-lake-surrounded-by-forest-great-wallpapers_181624-36398.jpg?w=1480&t=st=1703685181~exp=1703685781~hmac=3e2629c3baa41587b9a34bd383f8b2bf4a557b22b82db7d2f11ef26b8e146504';
 
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,

@@ -51,7 +51,7 @@ function MallFem() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} >Diskutera</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.h2}`} >Diskutera</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Detta diskutionsforum är kopplat till månadens utmaning. Här få ni möjlighet att ge varandra tips och råd. Eller dela förändringar ni uppnått i er vardag.</p>
                   </Card.Text>
@@ -65,7 +65,7 @@ function MallFem() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Månadens utmaning</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`}>Månadens utmaning</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Ta del av månadens utmaning</p>
                   </Card.Text>

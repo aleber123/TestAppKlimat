@@ -41,7 +41,7 @@ function MallSex() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} >Diskutera</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`} >Diskutera</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >I Detta forum finns möjligheten att diskutera med varandra samt få möjlighet att få ställa frågot till våra sxperter</p>
                   </Card.Text>
@@ -55,7 +55,7 @@ function MallSex() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Våra experter</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`}>Våra experter</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >För att diskutionerna ska bli lärorika finna våra experter tillgängliga</p>
                   </Card.Text>

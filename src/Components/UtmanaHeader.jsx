@@ -17,9 +17,9 @@ function UtmanaHeader() {
   };
 
   const contentStyle = {
-    color: '#FDFAF2',
-    marginTop: '10rem', // Justera detta för att ändra avståndet från toppen
-    backgroundColor: 'rgba(48, 71, 66, 0.75)', // 75% opacitet,
+    color: '#304742',
+    marginTop: '10rem', 
+    backgroundColor: 'rgba(253, 250, 242, 0.9)'
   };
   return (
     <div className="d-flex align-items-center justify-content-center flex-column" style={containerStyle}>

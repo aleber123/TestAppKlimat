@@ -4,8 +4,8 @@ import styles from '../Fonts.module.css'; // Import your CSS module
 
 function KontaktFormular() {
   return (
-    <div style={{backgroundColor:'#304742'}}className='pb-5'>
-          <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-3`} style={{color:'#FDFAF2'}}>Kontakta oss</h1>
+    <div style={{backgroundColor:'#BCD0A5'}}className='pb-5'>
+          <h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-3`} style={{color:'##304742'}}>Kontakta oss</h1>
         <div className='d-flex justify-content-center'  >
         <Form className=" pt-3" style={{width:'70%'}}>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

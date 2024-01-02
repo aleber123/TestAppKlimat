@@ -39,7 +39,7 @@ function MallTre() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} >Statistik</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`} >Statistik</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >här finns statistik som visar klimatkrisens historia</p>
                   </Card.Text>
@@ -53,7 +53,7 @@ function MallTre() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Nyheter</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`}>Nyheter</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Läs det senaste nyheterna om klimatkrisen</p>
                   </Card.Text>
@@ -67,7 +67,7 @@ function MallTre() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} >Kunskapsbank</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`} >Kunskapsbank</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Här samlar vi information från tidigare workshops, frågestunder och andra tips</p>
                   </Card.Text>

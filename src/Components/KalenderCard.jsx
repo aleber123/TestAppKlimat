@@ -19,7 +19,7 @@ function KalenderCard() {
                 width: '10rem',
                 height: '3rem',
                 marginTop: '5rem',
-                backgroundColor: '#567B5D',
+                backgroundColor: '#304742',
                 borderRadius: '50px',
                 
               }}><p className={`${styles.openSans} ${styles.p} 'd-flex justify-content-center' `} style ={{color:'#FDFAF2'}}>Till Workshop</p></Button>

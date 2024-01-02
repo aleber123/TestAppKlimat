@@ -8,9 +8,9 @@ import Form from 'react-bootstrap/Form';
 
 function Hero() {
   return (
-<div style={{backgroundColor:"#FDFAF2"}}>
+<div style={{backgroundColor:"#FDFAF2"}} >
 <Container >
-<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center`}> Här är ditt resultat</h1>
+<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-5`}> Här är ditt resultat</h1>
 </Container>
 <Container className='p-3'>
 

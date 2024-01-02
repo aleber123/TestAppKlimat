@@ -11,7 +11,7 @@ function MedelSvensson() {
   return (
 <div style={{backgroundColor:"#FDFAF2"}}>
 <Container >
-<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center`}> Här är ditt resultat</h1>
+<h1 className={`${styles.openSans} ${styles.bold} ${styles.h1} text-center pt-5`}> Här är ditt resultat</h1>
 </Container>
 <Container className='p-3'>
 
@@ -19,7 +19,7 @@ function MedelSvensson() {
 <Col>
 <img src="https://i.ibb.co/Lh4y3YM/Medelsvensson.png" alt="Hero" border="0" /> 
 </Col>
-<Col>
+<Col className='border border-dark p-3'>
 <h2 className={`${styles.poppins} ${styles.bold} ${styles.h2} pt-6`}>Du är en Medelsvensson</h2>
 <p className={`${styles.openSans} ${styles.p} pt-4`}> Du blev medelsvensson! Dina matvanor i dag representerar i stort sett den genomsnittliga svensken. Vi tror på dig och hoppas att du vill göra något mer för klimatet! En omställning behövs och den genomsnittliga kosten hos medelsvensken idag är inte hållbar för framtiden och de klimatmål som EU och världen satt upp. Vi vill ge dig några förslag på förbättringar i din vardag. Vi rekommenderar att du väljer ut en att börja med och tar små steg som du kan upprätthålla och senare utöka. Lycka till!</p>
 <div>

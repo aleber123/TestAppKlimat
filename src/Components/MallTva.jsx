@@ -20,9 +20,9 @@ function MallTva() {
   };
 
   const contentStyle = {
-    color: '#FDFAF2',
-    marginTop: '10rem',
-    backgroundColor: 'rgba(48, 71, 66, 0.75)',
+    color: '#304742',
+    marginTop: '10rem', 
+    backgroundColor: 'rgba(253, 250, 242, 0.9)'
   };
 
   const [selectedComponent, setSelectedComponent] = useState(null);
@@ -58,7 +58,7 @@ function MallTva() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`} >Om oss</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`} >Om oss</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Se vilka som gömmer sig bakom kulisserna</p>
                   </Card.Text>
@@ -72,7 +72,7 @@ function MallTva() {
                 className={`pl-5 user-select-all ${styles.hoverEffect}`}
               >
                 <Card.Body>
-                  <Card.Title className='text-center'><h2 className={`${styles.poppins} ${styles.bold} ${styles.h2}`}>Kontakta oss</h2></Card.Title>
+                  <Card.Title className='text-center'><h2 className={`${styles.poppins}  ${styles.h2}`}>Kontakta oss</h2></Card.Title>
                   <Card.Text className='text-center pt-5'>
                     <p className={`${styles.openSans} ${styles.p}`} >Vi tar gärna emot frågor och funderingar</p>
                   </Card.Text>

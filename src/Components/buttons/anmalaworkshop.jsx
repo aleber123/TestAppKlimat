@@ -8,7 +8,7 @@ function AnmalaWorkshop() {
         style={{
           width: '30rem',
           height: '3rem',
-          backgroundColor: '#567B5D',
+          backgroundColor: '#BCD0A5',
           borderRadius: '50px',
           color: '#FDFAF2',
           outline: 'none',
@@ -23,7 +23,7 @@ function AnmalaWorkshop() {
             fontWeight: '500', // Use '500' for medium weight
           }}
         >
-          <p className={`${styles.openSans} ${styles.p}`}>Anmäl dig till WORKSHOP</p>
+          <p className={`${styles.openSans} ${styles.p} ${styles.bold}`} style={{color:'#304742'}}>Anmäl dig till WORKSHOP</p>
         </span>
       </Button>
     </div>
