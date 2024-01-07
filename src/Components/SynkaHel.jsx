@@ -1,6 +1,6 @@
 
 
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Synka from './buttons/Synka';
 import Container from 'react-bootstrap/Container';
 

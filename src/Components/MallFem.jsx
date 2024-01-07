@@ -3,13 +3,14 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Bygger from './Bygger';
 import UtmanaHeader from './UtmanaHeader';
 
+// Funktion för rendering av mall för länkar till olika sektioner
 function MallFem() {
   const backgroundImageURL = 'https://img.freepik.com/free-photo/colleagues-giving-fist-bump_53876-64857.jpg?w=1800&t=st=1703340648~exp=1703341248~hmac=670dbbb0de69dda7a133e7eb9ec3cf34689b06503ab84031380a22950195521a';
-
+// Stilar för kontainern och innehållet
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,
     width: '100%',
@@ -24,9 +25,9 @@ function MallFem() {
     marginTop: '10rem',
     backgroundColor: 'rgba(48, 71, 66, 0.75)',
   };
-
+ // Usestate för att hålla se vilket  komponent som är vald
   const [selectedComponent, setSelectedComponent] = useState(null);
-
+ // Funktion för att rendera rätt komponent baserat på användarens val
   const renderComponent = () => {
     switch (selectedComponent) {
       case 'bygger':

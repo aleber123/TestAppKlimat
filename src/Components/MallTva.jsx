@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import OmOss from './Omoss';
 import KontaktFormular from './KontaktFormular';
 
@@ -24,7 +24,7 @@ function MallTva() {
     marginTop: '10rem', 
     backgroundColor: 'rgba(253, 250, 242, 0.9)'
   };
-
+ // Usestate för att hålla se vilket  komponent som är vald
   const [selectedComponent, setSelectedComponent] = useState(null);
 
   const renderComponent = () => {

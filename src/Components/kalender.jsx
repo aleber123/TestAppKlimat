@@ -1,5 +1,5 @@
 import KalenderCard from "./KalenderCard";
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Container from 'react-bootstrap/Container';
 import SynkaHel from "./SynkaHel";
 

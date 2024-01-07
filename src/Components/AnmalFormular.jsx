@@ -1,8 +1,7 @@
 import Form from 'react-bootstrap/Form';
 import Skicka from '../Components/buttons/skicka'
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Col from 'react-bootstrap/Col';
-
 import Row from 'react-bootstrap/Row';
 
 function AnmalFormular() {

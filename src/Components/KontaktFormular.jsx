@@ -1,6 +1,6 @@
 import Form from 'react-bootstrap/Form';
 import Skicka from '../Components/buttons/skicka'
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 
 function KontaktFormular() {
   return (

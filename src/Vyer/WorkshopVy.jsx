@@ -1,5 +1,5 @@
 import MallEtt from '../Components/MallEtt';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import WorkshopHeader from '../Components/WorkshopHeader';
 
 

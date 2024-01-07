@@ -6,7 +6,8 @@ import Starta from './buttons/StartaQuiz';
 
 function DiskutionsHeader() {
   const backgroundImageURL = 'https://img.freepik.com/free-photo/hand-using-laptop-computer-with-virtual-screen-document-online-approve-paperless-quality-assurance-erp-management-concept_616485-61.jpg?w=1480&t=st=1703532861~exp=1703533461~hmac=0a4ba4dc7579680d7714aa087459d75477fcf286851ef7da74711d2bef478ad5';
-
+ // URL för bakgrundsbilden
+  // Stil för container med bakgrundsbild
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,
     width: '100%',
@@ -15,7 +16,7 @@ function DiskutionsHeader() {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   };
-
+  // Stil för innehållet inuti containern
   const contentStyle = {
     color: '#304742',
     marginTop: '10rem', 

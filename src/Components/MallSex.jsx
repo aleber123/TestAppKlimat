@@ -3,20 +3,20 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Bygger from './Bygger';
 import DiskutionsHeader from './DiskuteraHeader';
-
+// Funktion för rendering av mall för länkar till olika sektioner
 function MallSex() {
- 
+  // Stilar för kontainern och innehållet
   const contentStyle = {
     color: '#FDFAF2',
     marginTop: '10rem',
     backgroundColor: 'rgba(48, 71, 66, 0.75)',
   };
-
+ // Usestate för att hålla se vilket  komponent som är vald
   const [selectedComponent, setSelectedComponent] = useState(null);
-
+ // Funktion för att rendera rätt komponent baserat på användarens val
   const renderComponent = () => {
     switch (selectedComponent) {
       case 'bygger':

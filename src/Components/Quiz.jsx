@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
-import questions from './QuizData'; // Import your questions data
+import questions from './QuizData'; 
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import Container from 'react-bootstrap/Container';
 import Hero from './Hero';
 import MedelSvensson from './MedelSvensson';
@@ -10,6 +10,7 @@ import IngetResultat from './IngetResultat';
 
 
 function Quiz() {
+     // Spara användarens svar, aktuell fråga och visa resultat
     const [userAnswers, setUserAnswers] = useState(Array(questions.length).fill(null));
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [showResult, setShowResult] = useState(false);
@@ -17,47 +18,47 @@ function Quiz() {
     const resultRef = useRef(null);
     const scrollToResult = () => {
         if (resultRef.current) {
-            resultRef.current.scrollIntoView({ behavior: 'smooth' }); // Scroll to the result section
+            resultRef.current.scrollIntoView({ behavior: 'smooth' }); // Skrolla för att se resultat
         }
     };
-
+// Funktion för att hantera val av svaralternativ
     const handleAnswerSelection = (selectedOptionPoints) => {
         const updatedAnswers = [...userAnswers];
         updatedAnswers[currentQuestionIndex] = selectedOptionPoints;
         setUserAnswers(updatedAnswers);
     };
-
+ // Funktion för att gå till nästa fråga
     const handleNext = () => {
         if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
         }
     };
-
+ // Funktion för att hoppa över en fråga och gå till nästa
     const handleSkip = () => {
         const updatedAnswers = [...userAnswers];
-        updatedAnswers[currentQuestionIndex] = 0; // Assign 0 points on skip
+        updatedAnswers[currentQuestionIndex] = 0; // lägg till noll för ej ifyllda
         setUserAnswers(updatedAnswers);
 
         if (currentQuestionIndex < questions.length - 1) {
             setCurrentQuestionIndex(currentQuestionIndex + 1);
         }
     };
-
+ // Funktion för att gå till föregående fråga
     const handlePrevious = () => {
         if (currentQuestionIndex > 0) {
             setCurrentQuestionIndex(currentQuestionIndex - 1);
         }
     };
-
+ // Funktion för att räkna totala poäng och kategorisera användaren
     const calculateTotalScore = () => {
         let totalScore = 0;
 
         for (let i = 0; i < userAnswers.length; i++) {
             if (userAnswers[i] !== undefined) {
-                totalScore += userAnswers[i]; // Assuming userAnswers stores points directly
+                totalScore += userAnswers[i]; 
             }
         }
-
+ // Funktion för att kategorisera användaren baserat på poäng
         const categorizeUser = (totalScore) => {
             if (totalScore >= 0 && totalScore <= 10) {
                 return <IngetResultat />;
@@ -77,17 +78,17 @@ function Quiz() {
             userCategory,
         };
     };
-
+ // Funktion för att visa resultatet
     const handleShowResult = () => {
         setShowResult(true);
-        scrollToResult(); // Scroll to the result section when showing result
+        scrollToResult(); 
     };
 
     const calculateProgress = () => {
         const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
         return progress;
     };
-
+ // Funktion för att rendera processsindikatorn
     const renderProgressBar = () => {
         const progress = calculateProgress();
 
@@ -104,7 +105,7 @@ function Quiz() {
             </div>
         );
     };
-
+ // Funktion för att rendera frågan och svarsalternativen
     const renderQuestion = () => {
         const question = questions[currentQuestionIndex];
 
@@ -175,7 +176,7 @@ function Quiz() {
             {showResult && (
                 <div ref={resultRef}>
                     <p>{userCategory}</p>
-                    {/* Other relevant information or components for the result */}
+                
                 </div>
             )}
         </div>

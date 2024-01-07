@@ -1,7 +1,6 @@
 
 import Container from 'react-bootstrap/Container';
-import styles from '../Fonts.module.css'; // Import your CSS module
-import Synka from './buttons/Synka';
+import styles from '../Fonts.module.css'; 
 import Starta from './buttons/StartaQuiz';
 
 

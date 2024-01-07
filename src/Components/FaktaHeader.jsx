@@ -6,7 +6,8 @@ import Starta from './buttons/StartaQuiz';
 
 function FaktaHeader() {
   const backgroundImageURL = 'https://img.freepik.com/free-photo/smart-farming-with-agriculture-iot_53876-124634.jpg?w=2000&t=st=1703532913~exp=1703533513~hmac=dedb7a0f753fefd3e6d0f54273f3bed5db623d9deef1dd2f79b601799958d259';
-
+ // URL för bakgrundsbilden
+  // Stil för container med bakgrundsbild
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,
     width: '100%',
@@ -15,7 +16,7 @@ function FaktaHeader() {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   };
-
+// Stil för innehållet inuti containern
   const contentStyle = {
     color: '#304742',
     marginTop: '9rem', 

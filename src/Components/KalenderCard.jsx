@@ -1,12 +1,14 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import { getWorkshopInfo } from './WorkshopArray';
 
 
 
 function KalenderCard() {
+   // Hämta information om workshops från funktionen getWorkshopInfo
   const WorkArray= getWorkshopInfo();
+  // kort för varje workshop som finns i arrayen
   return WorkArray.map((work) =>  (
 
     <Card style={{ width: '15rem', backgroundColor:'FDFAF2' }}>

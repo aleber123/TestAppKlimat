@@ -3,7 +3,8 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'r
 
 const Temperatur = () => {
   const [data, setData] = useState([]);
-
+  // useState för att hantera den hämtade datan
+   // useEffect används för att hämta data
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -23,6 +24,7 @@ const Temperatur = () => {
   }, []);
 
   return (
+     // Rendera linjediagramkomponenten med Recharts
     <div style={{backgroundColor:'#FDFAF2'}}>
       <LineChart width={530} height={350} data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
         <CartesianGrid strokeLinecap="3 3" />

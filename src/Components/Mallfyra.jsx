@@ -3,13 +3,12 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import styles from '../Fonts.module.css'; // Import your CSS module
-import { Link } from 'react-router-dom';
-import { Nav } from 'react-bootstrap';
+import styles from '../Fonts.module.css'; 
 import Co2Text from './Grafer/Co2Text';
 import HavsNivaText from './Grafer/HavsNivaText';
 import TemperaturText from './Grafer/TemperaturText';
 
+// Funktion för rendering av mall för länkar till olika sektioner
 function MallFyra() {
   const [selectedComponent, setSelectedComponent] = useState(null);
 

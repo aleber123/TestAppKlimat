@@ -18,8 +18,8 @@ function QuizHeader() {
 
   const contentStyle = {
     color: '#304742',
-    marginTop: '10rem', // Adjust this to change the distance from the top
-    backgroundColor: 'rgba(255, 255, 255, 0.9)', // White background color with 50% opacity
+    marginTop: '10rem', 
+    backgroundColor: 'rgba(255, 255, 255, 0.9)', 
   };
   return (
     <div className="d-flex align-items-center justify-content-center flex-column" style={containerStyle}>

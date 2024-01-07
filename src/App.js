@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import './style.css'; // If you have a global style file for your application
-import styles from './Fonts.module.css'; // Check if the path is correct
-import Header from './Components/header'; // Import Header component
+import './style.css'; 
+
+import Header from './Components/header'; 
 import Quiz from './Components/Quiz';
 import WorkshopVy from './Vyer/WorkshopVy';
 import StartVy from './Vyer/StartVy';
@@ -20,9 +20,6 @@ import HavsNivaText from './Components/Grafer/HavsNivaText';
 import TempraturText from './Components/Grafer/TemperaturText'
 import Footer from './Components/footer';
 import OmOss from './Components/Omoss';
-import DiskutionsHeader from './Components/DiskuteraHeader';
-import UtmanaHeader from './Components/UtmanaHeader';
-import FaktaHeader from './Components/FaktaHeader';
 import KontaktFormular from './Components/KontaktFormular';
 import MallFem from './Components/MallFem';
 import MallSex from './Components/MallSex';

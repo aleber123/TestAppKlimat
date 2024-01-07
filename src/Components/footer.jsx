@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 import { Link,  } from 'react-router-dom';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import { Container, Row, Col } from 'react-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';

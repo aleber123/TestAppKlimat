@@ -1,6 +1,6 @@
 
 import AnmalaWorkshop from "./buttons/anmalaworkshop";
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 
 function WorkshopVad() {
     return(

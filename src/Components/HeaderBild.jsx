@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HeaderBild() {
   const backgroundImageURL = 'https://images.unsplash.com/photo-1476231682828-37e571bc172f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D';
-
+ // URL för bakgrundsbilden
+  // Stil för container med bakgrundsbild
   const containerStyle = {
     backgroundImage: `url(${backgroundImageURL})`,
     width: '100%',
@@ -14,7 +15,7 @@ function HeaderBild() {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
   };
-
+// Stil för innehållet inuti containern
   const contentStyle = {
     color: '#FDFAF2',
     marginTop: '20rem', // Justera detta för att ändra avståndet från toppen

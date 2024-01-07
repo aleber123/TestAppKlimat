@@ -1,6 +1,6 @@
 
 import Card from 'react-bootstrap/Card';
-import styles from '../Fonts.module.css'; // Import your CSS module
+import styles from '../Fonts.module.css'; 
 import { getkontaktInfo } from './KontaktArray';
 
 function KontaktCard() {
